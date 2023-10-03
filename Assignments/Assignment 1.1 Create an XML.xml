@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--Declaration with XML version and encoding being used-->
+
+<Library> <!--Root element/tag-->
+	<Catalogue category="Technical Books"> <!--Parent Element/tag "Catelogue", with attribute stating why type of catalogue it is-->	
+		<title>Code: The Hidden Language of Computer Hardware and Software</title> <!--Child Tag "title",opened and closed, with child node of type text-->
+		<author>Charles Petzold</author> <!--Child Tag "author" opened and closed, with child node of type text-->
+		<ISBN>9780735611313</ISBN>	<!--Child Tag "ISBN" opened and closed, with child node of type text-->
+	</Catalogue> <!--Close Parent tag-->
+	
+	<Catalogue category="Technical Books">
+		<title>Steve Jobs </title>
+		<author>Walter Isaacson</author>
+		<ISBN>9781451648539</ISBN>		
+	</Catalogue>
+	
+	
+	<Catalogue category="Cookery Books">
+		<title>Home Kitchen</title>
+		<author>Donal Skehan</author>
+		<ISBN>9781399718172</ISBN>
+	</Catalogue>
+	
+	
+	<Catalogue category="Cookery Books">	
+		<title>100 CAKES AND BAKES</title>
+		<author>Mary Berry</author>
+		<ISBN>9781849901499</ISBN>
+	</Catalogue>
+</Library> <!--Close Root tag-->
