@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 Labs/API_Keys/config.py
 Labs/Get private data from GitHub/config.py
+Labs/Get_private_repoinfo_from_GitHub/config.py
