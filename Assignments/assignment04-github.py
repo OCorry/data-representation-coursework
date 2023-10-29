@@ -38,7 +38,7 @@ print (contentsOfFile)
 
 #Add more text to the file
 newContents = contentsOfFile +("Andrew \n" "Mike \n" "Mary \n" "Joe \n" "Lisa \n" "Kevin \n" "Andrew \n" "Martin\n" 
-                               "John \n" "Andrew \n" "Gerard \n" "Sarah \n" "Andrew \n")
+                               "John \n" "Andrew \n" "Gerard \n" "Sarah \n" "Andrew \n" "Jessie \n")
 #Print the added text to the terminal 
 print(newContents)
 
@@ -57,7 +57,3 @@ gitHubResponse= repo.update_file(fileInfo.path,"updated by prog",
 replacedContents,fileInfo.sha)   
 #Printing GitHub response to terminal to show if the commit to GitHub was successful                              
 print (gitHubResponse)
-
-
-
-
