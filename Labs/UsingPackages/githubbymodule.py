@@ -25,7 +25,7 @@ contentsOfFile = response.text
 print (contentsOfFile)
 
 #Add more text to the file
-newContents = contentsOfFile +"more stuff2 \n"
+newContents = contentsOfFile +"more stuff4 \n"
 print(newContents)
 
 #Upload the contents of the file back up to github
