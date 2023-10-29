@@ -38,9 +38,9 @@ print (contentsOfFile)
 
 #Add more text to the file
 newContents = contentsOfFile +("Andrew \n" "Mike \n" "Mary \n" "Joe \n" "Lisa \n" "Kevin \n" "Andrew \n" "Martin\n" 
-                               "John \n" "Andrew \n" "Gerard \n" "Sarah \n" "Andrew \n" "Jessie \n")
+                               "John \n" "Andrew \n" "Gerard \n" "Sarah \n" "Andrew \n" "Jessie \n" "Andrew \n")
 #Print the added text to the terminal 
-print(newContents)
+#print(newContents)
 
 
 #Replacing every instance of text "Andrew" with "Orla"
@@ -48,7 +48,7 @@ print(newContents)
 
 #Storing as new variable "replacedContents" 
 replacedContents = newContents.replace('Andrew', 'Orla')
-#print(updatedNewContents)
+#print(replacedContents)
 
 #Upload the contents of the updated file back up to github
 #Using the new variable "replacedContents" to push the replaced contents rather than the "newContents" that were nputted by user
