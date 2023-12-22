@@ -1,6 +1,6 @@
-#Write a program that will mreadm a dile from a repository  
-#The prpgram should replace all the instances of the text "Andrew" with my name
-#The program should then commit those changes and push the file back to the repository
+#Write a program that reads in a file from a repository  
+#The program should replace all the instances of the text "Andrew" with my name
+#The program should then commit those changes and push the updated file back to the repository
 
 #Importing GitHub
 from github import Github
@@ -34,7 +34,7 @@ contentsOfFile = response.text
 #Print status code to terminal to tell user if error or successful
 print (response.status_code)
 #Print contents of file to terminal 
-print (contentsOfFile)
+#print (contentsOfFile)
 
 #Add more text to the file
 newContents = contentsOfFile +("Andrew \n" "Mike \n" "Mary \n" "Joe \n" "Lisa \n" "Kevin \n" "Andrew \n" "Martin\n" 
@@ -56,4 +56,4 @@ replacedContents = newContents.replace('Andrew', 'Orla')
 gitHubResponse= repo.update_file(fileInfo.path,"updated by prog",
 replacedContents,fileInfo.sha)   
 #Printing GitHub response to terminal to show if the commit to GitHub was successful                              
-print (gitHubResponse)
+#print (gitHubResponse)

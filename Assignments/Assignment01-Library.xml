@@ -1,7 +1,9 @@
+<!--XML file that stores data for a library. It has two catalogues and each of the catalogues contains 2 books-->
+
 <?xml version="1.0" encoding="UTF-8"?> <!--Declaration with XML version and encoding being used-->
 
 <Library> <!--Root element/tag-->
-	<Catalogue category="Technical Books"> <!--Parent Element/tag "Catelogue", with attribute stating why type of catalogue it is-->	
+	<Catalogue category="Technical Books"> <!--Parent Element/tag "Catelogue", with attribute stating what type of catalogue it is-->	
 		<title>Code: The Hidden Language of Computer Hardware and Software</title> <!--Child Tag "title",opened and closed, with child node of type text-->
 		<author>Charles Petzold</author> <!--Child Tag "author" opened and closed, with child node of type text-->
 		<ISBN>9780735611313</ISBN>	<!--Child Tag "ISBN" opened and closed, with child node of type text-->
